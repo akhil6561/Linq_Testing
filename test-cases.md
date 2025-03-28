@@ -31,7 +31,7 @@ Pre-condition: User is logged in and profile homepage is shown
 
 Step 1: CLick 'Edit Contact' link ------> 'Edit Contact' page should be displayed   
 Step 2: Click 'Add Contact Information' button------>	'Add Contact Info' popup should be shown  
-Step 3: Click 'Phone Number' option ------>	'Phone Number Information' page should be displayed   
+Step 3: Click 'Phone Number' option ------>	'Phone Number Information' popup should be displayed   
 Step 4: Select 'Phone Type, then enter valid phone number and Click 'Save' button ------>	Phone Number should be updated successfully  
 Step 5: Click 'Edit/Delete' option for phone number------>	'Phone Number Information' popup should be displayed   
 Step 6: Click 'Delete' button and click 'Delete' on confirmation popup as well------>	'Phone Number Information' should be deleted.  
@@ -42,7 +42,7 @@ Pre-condition: User is logged in and profile homepage is shown
 
 Step 1: CLick 'Edit Contact' link ------> 'Edit Contact' page should be displayed   
 Step 2: Click 'Add Contact Information' button------>	'Add Contact Info' popup should be shown  
-Step 3: Click 'Phone Number' option ------>	'Phone Number Information' page should be displayed   
+Step 3: Click 'Phone Number' option ------>	'Phone Number Information' popup should be displayed   
 Step 4: Select 'Phone Type, then enter valid phone number and Click 'Save' button ------>	Phone Number should be updated successfully  
 Step 5: Click 'Edit/Delete' option for phone number------>	'Phone Number Information' popup should be displayed   
 Step 6: Update the phone number in popup and click 'Save'------>	'Phone Number Information' should be updated.  
@@ -73,7 +73,7 @@ Pre-condition: User is logged in and profile homepage is shown
 
 Step 1: CLick 'Edit Contact' link ------> 'Edit Contact' page should be displayed   
 Step 2: Click 'Add Contact Information' button------>	'Add Contact Info' popup should be shown  
-Step 3: Click 'Email' option ------>	'Email Information' page should be displayed   
+Step 3: Click 'Email' option ------>	'Email Information' popup should be displayed   
 Step 4: Select 'Email Type, then enter valid email and Click 'Save' button ------>	Email should be updated successfully  
 Step 5: Click 'Edit/Delete' option for phone number------>	'Email Information' popup should be displayed   
 Step 6: Click 'Delete' button and click 'Delete' on confirmation popup as well------>	Email should be deleted.  
@@ -84,10 +84,24 @@ Pre-condition: User is logged in and profile homepage is shown
 
 Step 1: CLick 'Edit Contact' link ------> 'Edit Contact' page should be displayed   
 Step 2: Click 'Add Contact Information' button------>	'Add Contact Info' popup should be shown  
-Step 3: Click 'Email' option ------>	'Email Information' page should be displayed   
+Step 3: Click 'Email' option ------>	'Email Information' popup should be displayed   
 Step 4: Select 'Email Type, then enter valid email and Click 'Save' button ------>	Email should be updated successfully  
 Step 5: Click 'Edit/Delete' option for email------>	'Email Information' popup should be displayed   
 Step 6: Update the email in popup and click 'Save'------>	'Email Information' should be updated.  
+
+**TC_10_Verify that user is able to add/edit/delete address contact information**
+
+Pre-condition: User is logged in and profile homepage is shown
+
+Step 1: CLick 'Edit Contact' link ------> 'Edit Contact' page should be displayed   
+Step 2: Click 'Add Contact Information' button------>	'Add Contact Info' popup should be shown  
+Step 3: Click 'Address' option ------>	'Address Information' popup should be displayed   
+Step 4: Enter address type and address and Click 'Save' button ------>	Address should be updated successfully  
+Step 5: Click 'Edit/Delete' option for address------>	'Address Information' popup should be displayed   
+Step 6: Update the address in popup and click 'Save'------>	Address should be updated.  
+Step 7: Click 'Edit/Delete' option for address------>	'Address Information' popup should be displayed   
+Step 8: Click 'Delete' button and click 'Delete' on confirmation popup as well------>	Address should be deleted.  
+
 
 
 
