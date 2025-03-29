@@ -1,2 +1,10 @@
-Process improvements:  
-1. Peer review of test scenarios with business team, UAT team, QA team and development team. There could be scenarios that QA team isn't aware of that business and dev teams are aware of. This process will improve test coverage and it will help to avoid UAT defects. Catching potential UAT defects earlier will help unnecessary release delays. 
+Process improvements:   
+
+1. Peer review of test scenarios with business team, UAT team, QA team and development team. There could be scenarios that QA team isn't aware of that business and dev teams are aware of. This process will improve test coverage and it will help to avoid UAT defects. Catching potential UAT defects earlier will help avoiding unnecessary release delays.   
+
+2. Process of sending out release notes by develoment team for each QA build. This will help the QA team understand what all changes are going to be deployed as part of each build and QA team can plan their testing based on that. There are instances where dev team makes some changes and they don't let the QA team know. These missed changes can cause issues in production.   
+
+3.'How to test' document repository. Creating 'how to test' documents with screenshots of features will help any new team meber who joins the team understand the functionality and how to test better. This is a process I always implement wherever I work. It's extremely helpful for the team to go through and understand the functionalities.   
+
+Exploratory testing:   
+My approach to exploratory testing is to think about complex scenarios and test
