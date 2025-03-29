@@ -1,1 +1,1 @@
-Testing is done on the profile creation and contact information update. Test cases are prepared to test profile creation, phone number update, email update and address update.There are 6 defects which were found during testing.
+Testing is done on the profile creation and contact information. Test cases are prepared to test profile creation, phone number update, email update and address update.There are 6 defects which were found during testing.
