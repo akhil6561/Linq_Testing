@@ -17,7 +17,7 @@ Page name to verify the phone number is shown as ‘Confirm Email’.
 Contact info is not removed from the form after deletion  
 
 **Steps to reproduce:**   
-1.Go to https://linqapp.com/welcome   
+1.Go to https://linqapp.com/welcome and login     
 2.Click 'Edit Contact' link   
 3.Click 'Add Contact Information' button   
 4.Click 'Phone Number' option   
@@ -38,7 +38,7 @@ Note: Same issue happens for email, address.. etc.
 User is allowed to save phone number with more than 10 digits   
 
 Steps to reproduce:
-1.Go to https://linqapp.com/welcome   
+1.Go to https://linqapp.com/welcome and login     
 2.Click 'Edit Contact' link   
 3.Click 'Add Contact Information' button   
 4.Click 'Phone Number' option   
@@ -49,6 +49,24 @@ User should be shown error saying that the phone number isn’t valid
 
 **Actual result:**
 Phone is updated even though it’s invalid   
+
+
+**Defect4_Description:**
+User is able to create profile without last name and unwanted number is added on name.    
+
+Steps to reproduce:   
+1.Go to https://linqapp.com/welcome   
+2.Enter a new phone number and click Continue  
+3.Enter only first name, email address and click continue   
+4.Proceed and and complete the page creation  
+5.Check how the first name is shown on profile   
+
+**Expected result:**   
+1.User should not be able to create profile without last name   
+2.Unwanted number should not be added to the name in profile   
+
+**Actual result:**
+User is able to create profile without last name and unwanted number is added on name.   
 
  
 
