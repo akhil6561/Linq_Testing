@@ -84,7 +84,23 @@ Steps to reproduce:
 2.Entered phone number should be shown in profile after profile is created   
 
 **Actual result:**   
-User is able to create profile with non US phone number and phone number is not shown on profile.     
+User is able to create profile with non US phone number and phone number is not shown on profile.   
+
+
+**Defect6_Description:**   
+User is able to save changes even when there isn't any change made      
+
+Steps to reproduce:   
+1.Go to https://linqapp.com/welcome and login   
+2.Click 'Edit Contact' link   
+3.Click ‘Save Changes’ button without make any changes   
+4.Check if the action is successful.   
+
+**Expected result:**   
+Ideally the ‘Save Changes’ button should be disabled when there aren’t any changes. Updating this is unnecessary use of the database.      
+
+**Actual result:**   
+Users are allowed to complete the action without any changes being made.    
 
  
 
