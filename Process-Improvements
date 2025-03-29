@@ -1,1 +1,2 @@
-
+Process improvements:  
+1. Peer review of test scenarios with business team, UAT team, QA team and development team. There could be scenarios that QA team isn't aware of that business and dev teams are aware of. This process will improve test coverage and it will help to avoid UAT defects. Catching potential UAT defects earlier will help unnecessary release delays. 
