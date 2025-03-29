@@ -7,4 +7,4 @@ Process improvements:
 3.'How to test' document repository. Creating 'how to test' documents with screenshots of features will help any new team meber who joins the team understand the functionality and how to test better. This is a process I always implement wherever I work. It's extremely helpful for the team to go through and understand the functionalities.   
 
 Exploratory testing:   
-My approach to exploratory testing is to think about complex scenarios and test
+My first approach to exploratory testing is to think about complex and creative scenarios that I feel may break. Then come up with different combinations to randomly test.
