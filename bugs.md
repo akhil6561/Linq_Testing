@@ -68,5 +68,23 @@ Steps to reproduce:
 **Actual result:**
 User is able to create profile without last name and unwanted number is added on name.   
 
+
+**Defect5_Description:**   
+User is able to create profile with non US phone number and phone number is not shown on profile      
+
+Steps to reproduce:   
+1.Go to https://linqapp.com/welcome   
+2.Enter an Indian phone number(919995708187) and click Continue   
+3.Enter first name,last name, email address and click continue   
+4.Proceed and and complete the page creation   
+5.Check if the given phone number is shown in profile   
+
+**Expected result:**   
+1.User should not be able to create profile with non-US number     
+2.Entered phone number should be shown in profile after profile is created   
+
+**Actual result:**   
+User is able to create profile with non US phone number and phone number is not shown on profile.     
+
  
 
